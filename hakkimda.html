@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Profil Web Sitesi</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(to bottom, #e3f2fd, #90caf9);
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile {
+            margin: 50px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-text {
+            max-width: 500px;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-text h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #37474f;
+        }
+
+        .profile-text p {
+            margin: 10px 0 0;
+            font-size: 1.1rem;
+            color: #607d8b;
+        }
+
+        .links {
+            margin: 30px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .links a {
+            text-decoration: none;
+            padding: 15px 25px;
+            background: linear-gradient(to right, #007BFF, #0056b3);
+            color: white;
+            border-radius: 30px;
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .links a:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #78909c;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Profil Bölgesi -->
+        <div class="profile">
+            <img src="profile.jpg" alt="Profil Resmi">
+            <div class="profile-text">
+                <h1>Nurettin Mete BAYINDIR</h1>
+                <p>Merhabalar, ben Nurettin Mete Bayındır. Dijital baskı, web tasarımı ve dijital çözümler alanında profesyonel hizmetler sunuyorum. İşinizin ihtiyaçlarına uygun, modern ve etkili tasarımlarla markanızı bir adım öne taşıyorum.</p>
+            </div>
+        </div>
+
+        <!-- Linkler Bölgesi -->
+        <div class="links">
+            <a href="https://www.instagram.com/bayindirmedya?igsh=a3d3NTMzaWRlM3h2">BAYINDIR MEDYA</a>
+            <a href="#projects">Projeler</a>
+            <a href="#contact">İletişim</a>
+        </div>
+
+        <!-- Footer -->
+       <footer>
+    © 2024 Tüm Hakları Saklıdır. Tasarım: <a href="https://bayindirmedya.online" target="_blank">BAYINDIR MEDYA</a>
+      </footer>
+    </div>
+</body>
+</html>
